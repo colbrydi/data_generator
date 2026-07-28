@@ -3,7 +3,7 @@
 # - Used by: The `make` command run by students and CI.
 # - Adds: One-command workflows for setup, testing, and optional tooling.
 # - Learn more: https://www.gnu.org/software/make/manual/make.html#Introduction
-MODULENAME ?= mypackage
+MODULENAME ?= data_generator
 ENV_PREFIX ?= ./envs
 CONDA_RUN = conda run --prefix $(ENV_PREFIX)
 

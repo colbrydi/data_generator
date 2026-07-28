@@ -22,6 +22,9 @@ dependencies:
   - pdoc  # Optional: build API docs from docstrings
   - ipykernel  # Optional: Python kernel support for notebooks
   - jupyterlab  # Optional: notebook/lab interface
+  - numpy
+  - matplotlib
+  - pandas
   - pip:
       - detect-secrets  # Optional: secret scanning for commits/CI
 prefix: ./envs
